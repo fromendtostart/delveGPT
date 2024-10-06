@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "DelveGPT",
+  "version": "1.0",
+  "description": "Don't read what you don't want to.",
+  "permissions": ["storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "48": "icon.png"
+  }
+}

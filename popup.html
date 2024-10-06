@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DelveGPT</title>
+		<link rel="stylesheet" type="text/css" href="popup.css">
+	</head>
+	<body>
+	<div class="header">
+		<h1>DelveGPT</h1>
+		<div class="popupPosition">
+			<h6>Position</h6>
+			<div class="gridSelector" id="gridSelector">
+			</div>
+		</div>
+	</div>
+	<form class="wordForm" id="wordForm">
+		<label for="wordInput">Add word to watch:</label>
+		<input type="text" id="wordInput" name="word">
+		<button type="submit">Add</button>
+	</form>
+	<ul class="wordList" id="wordList"></ul>
+	<button id="deleteButton">Delete Selected</button>
+	
+	<script src="popup.js"></script>
+	</body>
+</html>
