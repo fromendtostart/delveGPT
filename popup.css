@@ -71,14 +71,14 @@ body {
 
 ul.wordList {
     list-style-type: none;
-    
     padding-inline-start: 0px;
 }
 
 .wordList li {
     display: flex;
     align-items: center;
-    gap: 2px;
+    gap: 4px;
 
+    font-size: small;
     text-overflow: ellipsis;
 }
